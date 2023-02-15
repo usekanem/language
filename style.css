@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    /* background: url(./Animated\ Shape.svg); */
+  }
+
+ 
+  header {
+    height: 100vh;
+    width: 100%;
+    background:  url(./pexels-magda-ehlers-1337387.jpg);
+    background-size: cover;
+    
+  }
+
+  .navbar-brand img {
+    /* filter: invert(1); */
+    width: 150px;
+    /* margin: 0; */
+  }
+  nav.navbar {
+    background: transparent !important;
+    /* background-color: lime !important; */
+  }
+  .navbar-expand-lg .navbar-collapse {
+    /* flex-grow: 0.1 !important; */
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  ul li {
+    font-weight: 500;
+  }
+  ul li a {
+    color: white !important;
+  }
+  button.btn {
+    background-color: #1582ff;
+    color: pink !important;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 13px !important;
+    box-shadow: 2px 3px 13px 0px #016be45e !important;
+  }
+
+  .parent{
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+body{
+    background-color: gray;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+
+}
+
+.family{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.child1{
+    height: 50%;
+    width: 100%;
+    background-size:contain;
+    /* border-top-right-radius: 15px;
+    border-top-left-radius: 15px; */
+background-image: url(./eng1.jpg);
+
+}
+
+.child2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    /* gap: 50px; */
+    
+}
+
+.child3{
+    background-image: url(./french1.png);
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+}
+
+.child5{
+    background-image: url(./spain1.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child7{
+    background-image: url(./germany.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(243, 148, 180) ;
+    color: black;
+    display: grid;
+    font-weight: 800;
+
+  }
