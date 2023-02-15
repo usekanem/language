@@ -38,6 +38,7 @@ body {
 
   ul li {
     font-weight: 500;
+    color: white;
   }
   ul li a {
     color: white !important;
@@ -129,3 +130,124 @@ footer {
     font-weight: 800;
 
   }
+
+  .contact {
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact p {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+  }
+  
+  form .input-2 {
+    /* width: 50%; */
+    display: flex;
+    gap: 20px;
+  }
+  
+  form .input-2 input {
+    width: 50%;
+  }
+  
+  .contact form input {
+    /* width: 50%; */
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    border: 1px solid grey;
+  }
+  
+  .contact form input:focus-visible,
+  .contact form textarea:focus-visible {
+    /* border: none; */
+    outline: none;
+  }
+  
+  .contact form textarea {
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    border: 1px solid grey;
+  }
+  
+  .contact form .button {
+    background: rgb(80, 3, 16);
+    color: white;
+    /* transition: 0.3s ease-in-out; */
+  }
+  
+  .contact form .button:hover {
+    background: none;
+    border: 1px solid blue;
+    color: blue;
+  }
+  @media (max-width: 700px) {
+    .contact form input {
+      /* width: 50%; */
+      border-radius: 40px;
+      padding: 1rem 1rem;
+    }
+    .contact p {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    form .input-2 {
+      flex-direction: column;
+    }
+  
+    .contact form input {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .child1 h1 {
+      width: 80%;
+      font-size: 2.5rem;
+      line-height: 1.4;
+    }
+  }
+  
+  @media (max-width: 996px) {
+   .child1 h1 {
+      width: 80%;
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  @media (max-width: 770px) {
+    .child1 h1 {
+      width: 100%;
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+  
+    @media(max-width: 840px){
+      .deail-text h5 {
+        width: 80%;
+        font-size: 2.5rem;
+        line-height: 1.4;
+      }
+      }
+    
+    @media(max-width:700){
+      .detail-text p {
+        width: 70%;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
